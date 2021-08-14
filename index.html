@@ -25,11 +25,46 @@
             </section>
         </div>
     </header>
-    <nav>
-
+    <nav  class="clearfix">
+        <div class="row limited">
+            <button id="hamburgerBtn">&#9776</button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Specials</a></li>
+            <li><a href="cheeseCakes.html">Cheese Cakes</a></li>
+            <li><a href="fruitPies.html">Fruit Pies</a></li>
+            <li><a href="#">Swag Shop</a></li>
+            </ul>
+        </div>
     </nav>
-    <main>
-<h1>Hello world!</h1>
+    <main class="clearfix">
+        <div class="row limited">
+            <section class="column small-12">
+
+                <img src="images/hero.jpg" alt="Bethany's pie shop image">
+            </section>
+        </div><!--end of row-->
+        <div class="row limited">
+            <section class="column small-12">
+
+                <h1>This Week's Special</h1>
+            </section>
+        </div><!--end of row-->
+        <div class="row limited">
+            <section class="column small-12 medium-6 labeled">
+
+                <h6>Apple Pie</h6>
+                <img src="products/pie-apple.jpg" alt="apple pie">
+                <p>SALES: $5.99</p>
+            </section>
+        
+            <section class="column small-12 medium-6 labeled">
+
+                <h6>Cheese Cake</h6>
+                <img src="products//cake-plain.jpg" alt="cheese cake">
+                <p>SALES: $6.99</p>
+            </section>
+            
+        </div><!--end of row-->
     </main>
     <footer class="clearfix">
         <div class="row limited">
@@ -62,8 +97,13 @@
                 <h2>About Us</h2>
                 <img src="images/logo2.png" alt="logo">
                 <p>&copy; 2020 &bull; all rights reserved.</p>
+     
+
             </section>
+
         </div><!--end of the row-->
     </footer>
+
+    <script src="js/menuToggle.js" ></script>
 </body>
 </html>
