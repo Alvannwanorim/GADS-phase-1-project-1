@@ -1,0 +1,5 @@
+@media only screen and (min-width: 768px) {
+  .medium-6 {
+    width: 50%;
+  }
+} /* end og media query */
