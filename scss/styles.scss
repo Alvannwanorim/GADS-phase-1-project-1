@@ -1,0 +1,10 @@
+@import "normalize";
+@import "variables";
+@import "small";
+@media only screen and (min-width: 768px) {
+  @import "medium";
+} /* end og media query */
+
+@media only screen and (min-width: 1024px) {
+  @import "large";
+} /* end og media query */
